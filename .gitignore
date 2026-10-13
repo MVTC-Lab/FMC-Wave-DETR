@@ -1,0 +1,37 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Training outputs
+runs/
+wandb/
+results/
+outputs/
+checkpoints/
+weights/
+
+# Datasets
+datasets/
+
+# Model weights and exported models
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+
+# Cache and logs
+*.cache
+*.log
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# System
+.DS_Store
